@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="state-container">
+            <div id="moves-count">Moves: 0</div>
+            <div id="time">Time: 00:00</div>
+        </div>
+
+        <div class="game-container hide"></div>
+
+        <!-- Stop button inside wrapper under the cards -->
+        <button id="stop" class="hide">Stop Game</button>
+    </div>
+
+    <div class="controls-container">
+        <p id="result"></p>
+        <!-- Start button remains here -->
+        <button id="start">Start Game</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
